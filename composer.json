@@ -15,11 +15,5 @@
             "meisen\\Free\\": "src/"
         }
     },
-    "require": {},
-     "repositories":[   
-       {   
-           "type":"git",   
-           "url":" https://github.com/meisen2008/free.git"   
-       },   
-   ]    
+    "require": {},   
 }
