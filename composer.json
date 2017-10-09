@@ -1,0 +1,19 @@
+{
+    "name": "meisen/free",
+    "description": "meisen free test",
+    "authors": [
+        {
+            "name": "meisen",
+            "email": "sunmay2008@qq.com"
+        }
+    ],
+    "autoload": {
+        "files":[
+            "src/Helpers/helpers.php"
+        ],
+        "psr-4": {
+            "meisen\\Free\\": "src/"
+        }
+    },
+    "require": {}
+}
