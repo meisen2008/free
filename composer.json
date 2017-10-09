@@ -1,6 +1,7 @@
 {
     "name": "meisen/free",
     "description": "meisen free test",
+    "type": "library,composer-plugin",
     "authors": [
         {
             "name": "meisen",
@@ -15,5 +16,6 @@
             "meisen\\Free\\": "src/"
         }
     },
-    "require": {}  
+    "require": {},
+    "minimum-stability": "dev"
 }
