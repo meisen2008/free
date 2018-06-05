@@ -9,7 +9,7 @@
     ],
     "autoload": {        
         "psr-4": {
-            "meisen\\Free\\": "src/"
+            "Helpers": "src/Helpers"
         }
     },
     "require": {},

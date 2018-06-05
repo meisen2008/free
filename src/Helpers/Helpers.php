@@ -1,6 +1,6 @@
 <?php
-namespace meisen\Free\Helpers;
-use meisen\Free\Helpers\goods;
+namespace Helpers;
+use Helpers\goods;
 class Helpers{
 	private $params = [];
 	public function __get($property_name)
