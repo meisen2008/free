@@ -1,6 +1,5 @@
 <?php
-namespace Helpers\Helpers;
-use Helpers\goods;
+namespace Helpers;
 class Helpers{
 	private $params = [];
 	public function __get($property_name)
