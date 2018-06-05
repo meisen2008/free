@@ -7,10 +7,7 @@
             "email": "sunmay2008@qq.com"
         }
     ],
-    "autoload": {
-        "files":[
-            "src/Helpers/helpers.php"
-        ],
+    "autoload": {        
         "psr-4": {
             "meisen\\Free\\": "src/"
         }

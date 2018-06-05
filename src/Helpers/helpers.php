@@ -1,6 +1,6 @@
 <?php
-namespace Helpers;
-
+namespace meisen\Free\Helpers;
+use meisen\Free\Helpers\goods;
 class Helpers{
 	private $params = [];
 	public function __get($property_name)
@@ -12,6 +12,15 @@ class Helpers{
 	{
 
 		$this->params[$property_name] = $property_value;
+
+	}
+
+	public function __call($name,$arguments)
+	{
+		echo $name."不存在33"."<br/>";
+		var_dump($arguments);
+		$goods = new goods();
+		call_user_func_array([$goods,$name], $arguments);
 
 	}
 }
