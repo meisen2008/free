@@ -1,5 +1,5 @@
 <?php
-namespace Helpers;
+namespace Helpers\Helpers;
 
 class goods{
 	private $params = [];
