@@ -24,7 +24,7 @@ class goods{
 
 	public function hao()
 	{
-		echo "hao999";
+		echo "hao99201812139";
 	}
 }
 
